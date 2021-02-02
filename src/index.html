@@ -1,11 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Temple</title>
+  <meta charset="UTF-8">
+  <title>TEMPLE</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="logoedit.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+  <script src="uikit/dist/js/uikit-icons.min.js"></script>
+  <script>
+
+  UIkit.util.on('#js-modal-alert', 'click', function (e) {
+    e.preventDefault();
+    e.target.blur();
+    UIkit.modal.alert('UIkit alert!').then(function () {
+        console.log('Alert closed.')
+    });
+});
+</script>
+
 </head>
 <body>
   <app-root></app-root>

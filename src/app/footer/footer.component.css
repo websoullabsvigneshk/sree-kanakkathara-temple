@@ -1,0 +1,14 @@
+.uk-section{
+    background-color: rgb(132, 212, 212);
+}
+.uk-inline{
+    margin-left: -120px;
+    margin-top: 60px;
+
+}
+.uk-in{
+    margin-right: -55px;
+}
+.uk-child-width-1-4\@s>* {
+    width: 27%;
+}
