@@ -9,7 +9,7 @@ import  { OfferingComponent } from './components/offering/offering.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { AboutComponent } from './components/about/about.component';
 import { TimeComponent } from './components/time/time.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 
@@ -54,12 +54,12 @@ const routes: Routes = [
     component:  PhotosComponent
 
   },
-
   {
-    path: "contact",
-    component:  ContactComponent
+    path: "contactus",
+    component:  ContactusComponent
 
   },
+ 
 
 
 
