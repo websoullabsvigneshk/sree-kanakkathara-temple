@@ -1,14 +1,11 @@
-.uk-section{
-    background-color: rgb(132, 212, 212);
+.uk-section-large {
+    padding-top: 140px;
+    padding-bottom: 1px;
 }
-.uk-inline{
-    margin-left: -120px;
-    margin-top: 60px;
-
+.uk-grid-item-match, .uk-grid-match>* {
+    display: inline-block;
+    flex-wrap: wrap;
 }
-.uk-in{
-    margin-right: -55px;
-}
-.uk-child-width-1-4\@s>* {
-    width: 27%;
+.uk-section-muted {
+    background: #b2eaec;
 }
